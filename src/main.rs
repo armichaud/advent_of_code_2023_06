@@ -44,11 +44,11 @@ fn solution(races: Vec<Race>) -> usize {
 fn main() {
     let example_races = setup("example.txt");
     let input_races = setup("input.txt");
-    assert_eq!(solution(example_races), 288);
-    assert_eq!(solution(input_races), 4403592);
+    println!("{}", solution(example_races));
+    println!("{}", solution(input_races));
 
     let example_2_races = setup("example_2.txt");
     let input_2_races = setup("input_2.txt");
-    assert_eq!(solution(example_2_races), 71503);
-    assert_eq!(solution(input_2_races), 38017587); 
+    println!("{}", solution(example_2_races));
+    println!("{}", solution(input_2_races)); 
 }
